@@ -1,8 +1,4 @@
-Of course. This document describes a new TypeScript transpiler with a strong focus on optimization, achieved through a "contract" between the developer and the compiler. The localization requires translating the technical concepts and the tool's philosophy into natural, idiomatic English for a developer audience.
-
-Here is the localized English version:
-
----
+STATUS: Open Design Proposal
 
 # Strict-Ts
 
@@ -493,5 +489,6 @@ if (result.ok) {
 ## Future Directions
 
 ### `try-catch` to `Result<T, E>` Transformation
+
 
 As a potential future direction, Strict-Ts could offer a feature to automatically transform `try-catch` structures that follow specific conventions (e.g., Web APIs) into the `Result<T, E>` type at compile time. This feature would aim to lower the adoption cost of the Result pattern, but its implementation involves complex code analysis and is considered a long-term exploration goal.
