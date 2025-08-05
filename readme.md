@@ -1,3 +1,5 @@
+專案狀態：一個開放的設計提案
+
 # Strict-Ts
 
 Strict-Ts 是一個專注於生成高安全性與小體積 JavaScript 的 TypeScript 轉譯器。其設計目標不僅是作為一個獨立的編譯器，更旨在與 Webpack、Vite 等現代建構工具生態無縫兼容。
@@ -491,3 +493,4 @@ if (result.ok) {
 ### `try-catch` 與 `Result<T, E>` 轉換
 
 作為一個潛在的發展方向，Strict-Ts 或可提供一項功能，在編譯時將遵循特定規範（如 Web API）的 `try-catch` 結構，自動轉換為 `Result<T, E>` 型別。此功能旨在降低採納 Result 模式的成本，但其實現涉及複雜的程式碼分析，屬於長期探索目標。
+
